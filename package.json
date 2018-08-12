@@ -5,7 +5,7 @@
   "main": "src/loader.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "pm2 start src/loader.js --name agreste"
+    "production": "pm2 start src/loader.js --name backend"
   },
   "author": "Romulo Ferreira",
   "license": "ISC",
@@ -23,5 +23,8 @@
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": "v8.11.3"
   }
 }
