@@ -2,9 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "loader.js",
+  "main": "src/loader.js",
   "scripts": {
-    "start": "loader.js",
+    "start": "src/loader.js",
     "dev": "nodemon",
     "production": "pm2 start src/loader.js --name backend"
   },
@@ -26,6 +26,6 @@
     "nodemon": "^1.11.0"
   },
   "engines": {
-    "node": "v8.11.3"
+    "node": ">=6.11.1"
   }
 }
